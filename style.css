@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    background: #4E5BEE;
+    
+}
+
+.grab{
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+.logo{
+    padding-bottom: 190px;
+    background-color: #fff;
+}
+.form{
+    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    font-size: 20px;
+    padding-left: 15px;
+    background: transparent;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border: 2px solid #F8F8F8;
+    outline: none;
+    color: #fff;
+}
+
+button{
+    width: 350px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.08)
+}
+.footer{
+    text-align: center;
+    margin-top: 250px;
+    color: #fff;
+}
+
+.footer a{
+    color: #fff;
+}
+
+.errorInput{
+    border: 2px solid red !important;
+}
+
+
+@media screen and (max-width: 1000px){
+    .form{
+        padding: 40px;
+        margin-top: 20%;
+        
+    }
+
+    .logo{
+        display: none;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 768px){
+    .form{
+        padding: 40px;
+        
+        
+    }
+
+    .logo{
+        display: none;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+}
+
